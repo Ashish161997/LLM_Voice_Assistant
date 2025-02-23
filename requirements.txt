@@ -1,0 +1,6 @@
+transformers
+bitsandbytes
+accelerate
+gradio
+gTTS
+git+https://github.com/openai/whisper.git
