@@ -4,7 +4,6 @@ import whisper
 import gradio as gr
 import time
 import warnings
-import os
 from gtts import gTTS
 from PIL import Image
 import numpy as np
@@ -14,7 +13,6 @@ import datetime
 import requests
 import gradio as gr
 import base64
-import os
 import os
 import locale
 locale.getpreferredencoding = lambda: "UTF-8"
