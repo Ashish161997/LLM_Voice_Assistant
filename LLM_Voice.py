@@ -122,7 +122,7 @@ def process_inputs(audio_path, image_path):
         mml_output = "No image provided."
 
     # Assuming 'transcribe' also returns the path to a processed audio file
-    processed_audio_path = text_to_speech(chatgpt_output, "Temp3.mp3")  # Replace with actual path if different
+    processed_audio_path = text_to_speech(mml_output, "Temp3.mp3") 
 
     return speech_to_text_output, mml_output, processed_audio_path
 
