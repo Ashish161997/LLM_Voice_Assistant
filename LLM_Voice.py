@@ -61,7 +61,7 @@ def img2txt(input_text, input_image):
     else:
         prompt_instructions = """
         Act as an expert in imagery descriptive analysis, using as much detail as possible from the image, respond to the following prompt:
-        """
+        """ + input_text
 
     writehistory(f"prompt_instruction : {prompt_instructions}")
     prompt = "User: <image>\n" + prompt_instructions + "\nAssistant:"
